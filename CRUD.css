@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .main {
+    width: 100%;
+    position: relative;
+} */
+
+main {
+    width: 75%;
+    margin: auto;
+    margin: 25px auto;
+}
+
+.main_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_box button {
+    border: none;
+    color: white;
+    background-color: rgb(0, 195, 255);
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 35px;
+    height: 45px;
+    width: 130px;
+    transition: all 0.5s;
+}
+
+.main_box button:hover {
+    background-color: rgb(0, 80, 90);
+    color: white;
+}
+
+
+.button_box {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+}
+
+.button_box button {
+    border: none;
+    background-color: transparent;
+}
+
+.button_box button i {
+    font-size: 25px;
+}
+
+i[class="fa-regular fa-pen-to-square"] {
+    color: orange;
+}
+
+i[class="fa-regular fa-trash-can"] {
+    color: red;
+}
+
+
+#second_tabel {
+    width: 75%;
+    margin: auto;
+    border: 1px solid;
+}
+
+.th_one,
+.th_two {
+    width: 40%;
+}
+
+.th_three {
+    width: 20%;
+}
+
+.rmv_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.rmv_all {
+    border: none;
+    color: white;
+    background-color: rgb(255, 81, 33);
+    font-weight: 600;
+    padding: 5px 50px;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.rmv_all:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+
+.tabel_first {
+    border: 1px solid black;
+    width: 500px !important;
+}
+
+.form-group label{
+    font-size: 20px;
+    color: orangered;
+    margin: 10px 0px;
+}
+
+.form-group input {
+    border: 1px solid gray;
+    /* background-color: rgb(187, 187, 187); */
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+.form-control:focus{
+    border: 1px solid gray;
+    box-shadow: none !important;
+}
+
+.form-group input::placeholder {
+    font-weight: 600;
+}
+
+.modal-footer button {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px 20px;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.modal-footer button:hover {
+    background-color: rgb(0, 66, 0);
+    color: white;
+}
+
+.head h1 {
+    color: blue;
+    font-weight: 600;
+}
+
+
+button[class="close"]{
+    border: none;
+    background-color: grey;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+/* .layout {
+    border: 1px solid red;
+    transition: all 1s;
+    position: absolute;
+    top: -2%;
+    left: 0;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+} */
